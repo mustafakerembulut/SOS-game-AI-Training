@@ -53,6 +53,16 @@ To start training the AI model, adjust the parameters in `constants.py` as desir
 
 This will initiate the training process, where the AI model plays against itself and learns to make intelligent moves using the Q-learning algorithm.
 
+## Viewing Training Logs with TensorBoard
+
+During the training process, logs are saved in "logs" directory with model name.
+To view the training logs using TensorBoard,
+1. Open a terminal or command prompt and navigate to the project directory.
+2. Run the following command to start TensorBoard: `tensorboard --logdir logs`
+  - This will start TensorBoard and load the logs from the "logs" directory.
+3. Open a web browser and visit the following URL to access the TensorBoard dashboard: `http://localhost:6006/`
+  - Also you can try Ctrl+clicking the URL, it will automaticly open url on your web browser
+
 ## Playing Against the Trained AI Model
 
 To play against the trained AI model,
