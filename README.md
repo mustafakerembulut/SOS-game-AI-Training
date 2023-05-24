@@ -16,7 +16,7 @@ You can install the required Python libraries by running:<br/>
 
 To customize the behavior of the SOS Game AI Training project, you can modify the following parameters in `constants.py`:
 
-#### Display Related Parameters
+### Display Related Parameters
 
 - `MENU_GAP`: The gap of the top menu that shows turn and scores in the display.
 - `SIZE`: The display size.
@@ -25,7 +25,7 @@ To customize the behavior of the SOS Game AI Training project, you can modify th
 - `WAIT_TIME`: The wait time between moves.
 - `SHOW_EVERY`: The frequency of displaying the game.
 
-#### Model Training Related Parameters
+### Model Training Related Parameters
 
 - `SCORE_REWARD`: The score reward for each completed SOS sequence.
 - `REWARD_INCREASE_RATE`: The rate at which the Q-value increases based on the reward.
@@ -36,7 +36,7 @@ To customize the behavior of the SOS Game AI Training project, you can modify th
 - `EPSILON_DECAY`: The rate at which the epsilon value decreases.
 - `MIN_EPSILON`: The minimum epsilon value.
 
-#### Model Saving Related Parameters
+### Model Saving Related Parameters
 
 - `IS_TEST`: Whether it is a test run (the model will not be saved).
 - `MODEL_NAME`: The name for saving the trained model.
