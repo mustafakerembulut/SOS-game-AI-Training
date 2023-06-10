@@ -1,0 +1,9 @@
+numpy==1.24.2
+opencv_contrib_python==4.7.0.72
+opencv_python==4.7.0.72
+Pillow==9.4.0
+torch>=1.13.1
+tqdm==4.64.1
+tensorboard==2.11.2
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
